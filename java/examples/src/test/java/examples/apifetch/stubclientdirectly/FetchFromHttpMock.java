@@ -1,4 +1,4 @@
-package examples.apifetch.mockclientdirectly;
+package examples.apifetch.stubclientdirectly;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

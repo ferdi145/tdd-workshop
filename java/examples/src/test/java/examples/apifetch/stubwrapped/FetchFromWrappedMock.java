@@ -1,4 +1,4 @@
-package examples.apifetch.mockwrapped;
+package examples.apifetch.stubwrapped;
 
 import examples.apifetch.PeopleClient;
 import examples.apifetch.Result;

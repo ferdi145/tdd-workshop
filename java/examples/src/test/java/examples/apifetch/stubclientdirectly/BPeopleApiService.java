@@ -1,4 +1,4 @@
-package examples.apifetch.mockclientdirectly;
+package examples.apifetch.stubclientdirectly;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import examples.apifetch.Result;

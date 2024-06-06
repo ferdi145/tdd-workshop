@@ -33,7 +33,7 @@ public class APeopleApiService {
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             String responseJson = response.body();
-            System.out.println(responseJson);
+            System.out.println("Response from Server: " + responseJson);
             var bean = new ObjectMapper().readValue(responseJson, Root.class);
             return bean.results()
                     .stream()
