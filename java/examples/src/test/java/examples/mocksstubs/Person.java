@@ -13,15 +13,16 @@ public class Person {
     }
 
     public Name name() {
+        // do expensive network call
         return name;
     }
 
     public String fullName() {
         Name name = this.name();
         return new StringBuilder()
-//                .append(name.firstname())
+                .append(name.firstname())
                 // unsafe, just an example
-                .append(name.firstnames().stream().findFirst().get())
+//                .append(name.firstnames().stream().findFirst().get())
                 .append(" ")
                 .append(name.lastname())
                 .toString();
