@@ -1,4 +1,4 @@
-classdef StarterTest < matlab.unittest.TestCase
+classdef Test < matlab.unittest.TestCase
 
     methods(Test)
         % Test methods
